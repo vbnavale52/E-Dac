@@ -1,0 +1,33 @@
+package com.app.sorting;
+
+public class SortAlgo 
+{
+
+	public void bubble(int[] arr)
+	{
+		
+		
+	}
+
+	public void selection(int[] arr) 
+	{
+		
+	}
+
+	public void insertion(int[] arr) {
+		
+	}
+
+	public void quick(int[] arr) {
+		
+	}
+
+	public void merge(int[] arr) {
+		
+	}
+
+	public void radix(int[] arr) {
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.app.searchalgo;
+
+public class SearchAlgo {
+	public void lenearSearch(int[] arr) {
+		
+	}
+}	

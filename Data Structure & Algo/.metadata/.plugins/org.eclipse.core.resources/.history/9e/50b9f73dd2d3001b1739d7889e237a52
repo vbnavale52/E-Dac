@@ -1,0 +1,40 @@
+package com.app.testsort;
+
+import java.util.Scanner;
+
+import com.app.sorting.SortAlgo;
+
+public class TestSort {
+
+	public static void main(String[] args) {
+		SortAlgo sort = new SortAlgo();
+		Scanner sc = new Scanner(System.in);
+		boolean flag = false;
+		while (flag != true)// while (!flag)
+		{
+			System.out.println("Enter the Array Size :");
+			int size=sc.nextInt();
+			int arr[]=new int[size];
+			System.out.println("Select Sorting Algorithm from folowing List for Sorting :");
+			System.out.println("_________________Sorting Algo___________________" + "\n1 : Bubble Sort :"
+					+ "\n2 : Selection Sort :" + "\n3 : Insertion Sort :" + "\n4 : Quick Sort : " + "\n5 : Merge Sort :"
+					+ "\n6 : Radix Sort : " + "\n7 : EXIT :");
+
+			switch (sc.nextInt()) {
+			case 1:
+				System.out.println("Sort the elements using bubble sort algo :");
+				// sort.bubble(arr)
+				break;
+			case 7:
+				flag = true;
+				break;
+
+			default:
+				break;
+			}
+
+		}
+
+	}
+
+}

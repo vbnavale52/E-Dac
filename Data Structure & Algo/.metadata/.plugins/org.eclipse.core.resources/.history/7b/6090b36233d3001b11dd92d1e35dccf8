@@ -1,0 +1,10 @@
+package com.app.binary_search_tree;
+
+public class TestBST {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
